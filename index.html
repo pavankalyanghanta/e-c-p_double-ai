@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essence Coffee Palace</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header { background-color: #764C24; color: #ffffff; padding: 20px; text-align: center; }
+        .menu, .popular, .options, .forms, .social, .newsletter { padding: 20px; }
+        .forms input, .newsletter input { margin: 5px 0; padding: 10px; width: calc(100% - 22px); }
+        .forms label { display: block; margin-top: 10px; }
+        .button { background-color: #4CAF50; color: white; padding: 15px 20px; border: none; cursor: pointer; }
+        .button:hover { background-color: #45a049; }
+        .menu img { width: 100px; height: auto; }
+        .social a { margin: 0 10px; }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>Essence Coffee Palace</h1>
+    <p>Contact us at: contact@essencecoffee.com | +123 456 7890</p>
+</div>
+
+<!-- Welcome Message -->
+<div class="welcome">
+    <p>Welcome to Essence Coffee Palace - Your premium coffee destination!</p>
+</div>
+
+<!-- Menu Section -->
+<div class="menu">
+    <h2>Our Menu</h2>
+    <p><strong>Espresso:</strong> Strong and impactful, the essence of coffee.</p>
+    <p><strong>Cappuccino:</strong> Smooth and creamy, with a touch of Italy.</p>
+    <p><strong>Latte:</strong> Soft and velvety, for a gentle start of your day.</p>
+    <p><strong>Mocha:</strong> Chocolate and coffee blended into perfection.</p>
+    <p><strong>Americano:</strong> Simple yet bold, an authentic coffee experience.</p>
+</div>
+
+<!-- Popular Choices -->
+<div class="popular">
+    <h2>Popular Choices</h2>
+    <img src="vanilla_latte.jpg" alt="Vanilla Latte">
+    <img src="espresso_shot.jpg" alt="Espresso Shot">
+    <img src="chocolate_chip_cookies.jpg" alt="Chocolate Chip Cookies">
+</div>
+
+<!-- Customization Options -->
+<div class="options">
+    <h2>Customize Your Drink</h2>
+    <p>Choose your size: Small | Medium | Large</p>
+    <p>Add extras: Vanilla | Caramel | Chocolate | Whipped Cream</p>
+</div>
+
+<!-- Forms: Order Placement, Registration, Login -->
+<div class="forms">
+    <h2>Place Your Order</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone">
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+        <button type="submit" class="button">Place Order</button>
+    </form>
+
+    <h2>Register</h2>
+    <form>
+        <label for="reg-name">Name:</label>
+        <input type="text" id="reg-name" name="name">
+        <label for="reg-email">Email:</label>
+        <input type="email" id="reg-email" name="email">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="reg-gender">Gender:</label>
+        <select id="reg-gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="reg-phone">Phone Number:</label>
+        <input type="text" id="reg-phone" name="phone">
+        <label for="reg-address">Address:</label>
+        <input type="text" id="reg-address" name="address">
+        <button type="submit" class="button">Register</button>
+    </form>
+
+    <h2>Login</h2>
+    <form>
+        <label for="login-username">Username:</label>
+        <input type="text" id="login-username" name="username">
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="password">
+        <button type="submit" class="button">Login</button>
+    </form>
+</div>
+
+<!-- Social Media Links -->
+<div class="social">
+    <a href="https://facebook.com">Facebook</a>
+    <a href="https://twitter.com">Twitter</a>
+    <a href="https://instagram.com">Instagram</a>
+</div>
+
+<!-- Newsletter Subscription -->
+<div class="newsletter">
+    <form>
+        <label for="subscribe-email">Subscribe to our newsletter:</label>
+        <input type="email" id="subscribe-email" name="email">
+        <button type="submit" class="button">Subscribe</button>
+    </form>
+</div>
+
+</body>
+</html>
